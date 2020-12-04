@@ -61,12 +61,13 @@ html {
     border-radius: 2px;
     transition: all 0.5s;
     transform: translateY(100px);
-    will-change: opacity;
+    will-change: transform;
     display: none;
   }
 
   .trigger-enter .dropdown {
     display: block;
+    opacity: 1;
   }
 
   .trigger-enter-active .dropdown {
